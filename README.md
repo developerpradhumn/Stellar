@@ -1,6 +1,4 @@
-==================================================
 STELLAR - MODERN CREATIVE AGENCY WEBSITE TEMPLATE
-==================================================
 
 "Stellar" is a premium, fully responsive website template designed for modern creative agencies, tech companies, and digital studios. It's built with clean, vanilla HTML, CSS, and JavaScript, focusing on a minimal, futuristic aesthetic with advanced UI/UX patterns.
 
