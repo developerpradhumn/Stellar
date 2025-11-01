@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar - Modern Creative Agency</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="dark-mode">
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">Stellar<span class="logo-dot">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact" class="btn btn-primary nav-btn">Contact</a></li>
+            </ul>
+            <div class="nav-utils">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="theme-switch-checkbox">
+                        <input type="checkbox" id="theme-switch-checkbox" />
+                        <div class="slider round">
+                            <i data-feather="sun" class="sun-icon"></i>
+                            <i data-feather="moon" class="moon-icon"></i>
+                        </div>
+                    </label>
+                </div>
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title reveal">
+                    Design the <span class="text-gradient">Future</span>.
+                </h1>
+                <p class="hero-subtitle reveal" data-reveal-delay="0.1s">
+                    We are a modern creative agency that blends cutting-edge technology with inspiring design to build
+                    digital experiences that matter.
+                </p>
+                <div class="hero-cta reveal" data-reveal-delay="0.2s">
+                    <a href="#portfolio" class="btn btn-primary">Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-bg-shapes">
+                <div class="hero-shape shape-1"></div>
+                <div class="hero-shape shape-2"></div>
+                <div class="hero-shape shape-3"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content reveal">
+                        <span class="section-subtitle">Who We Are</span>
+                        <h2 class="section-title">An Agency Built for Tomorrow</h2>
+                        <p>
+                            Stellar is not just a name; it's our standard. We are a collective of designers, developers,
+                            and strategists obsessed with the future. We partner with ambitious brands to create digital
+                            products and services that are not only beautiful but also intelligent and intuitive.
+                        </p>
+                        <p>
+                            From complex web applications to immersive digital branding, we push the boundaries of
+                            what's possible.
+                        </p>
+                    </div>
+                    <div class="about-stats reveal" data-reveal-delay="0.2s">
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="150">0</h3>
+                            <p>Projects Launched</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="98">0</h3>
+                            <p>Client Satisfaction %</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-target="12">0</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section">
+            <div class="container">
+                <span class="section-subtitle reveal">What We Do</span>
+                <h2 class="section-title reveal">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card glass-card reveal">
+                        <i data-feather="layout" class="service-icon"></i>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p>Crafting intuitive and engaging user interfaces that provide a seamless user experience
+                            across all devices.</p>
+                    </div>
+                    <div class="service-card glass-card reveal" data-reveal-delay="0.1s">
+                        <i data-feather="code" class="service-icon"></i>
+                        <h3 class="service-title">Web Development</h3>
+                        <p>Building high-performance, scalable, and secure web applications using modern technology
+                            stacks.</p>
+                    </div>
+                    <div class="service-card glass-card reveal" data-reveal-delay="0.2s">
+                        <i data-feather="pen-tool" class="service-icon"></i>
+                        <h3 class="service-title">Digital Branding</h3>
+                        <p>Creating unique brand identities that resonate with your target audience and stand out in a
+                            crowded market.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <span class="section-subtitle reveal">Our Work</span>
+                <h2 class="section-title reveal">Recent Projects</h2>
+
+                <div class="portfolio-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="app">App Design</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item reveal" data-category="web">
+                        <img src="https://placehold.co/600x400/0a0a1a/00bfff?text=Project+Orion" alt="Project Orion">
+                        <div class="portfolio-overlay">
+                            <h3>Project Orion</h3>
+                            <span>Web Design</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal" data-category="app">
+                        <img src="https://placehold.co/600x400/8a2be2/ffffff?text=Nova+App" alt="Nova App">
+                        <div class="portfolio-overlay">
+                            <h3>Nova App</h3>
+                            <span>App Design</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal" data-category="branding">
+                        <img src="https://placehold.co/600x400/00bfff/0a0a1a?text=Cygnus+Branding"
+                            alt="Cygnus Branding">
+                        <div class="portfolio-overlay">
+                            <h3>Cygnus Branding</h3>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal" data-category="web">
+                        <img src="https://placehold.co/600x400/1a1a2e/e0e0e0?text=Helix+Platform" alt="Helix Platform">
+                        <div class="portfolio-overlay">
+                            <h3>Helix Platform</h3>
+                            <span>Web Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog section">
+            <div class="container">
+                <span class="section-subtitle reveal">Insights</span>
+                <h2 class="section-title reveal">From the Blog</h2>
+                <div class="blog-grid">
+                    <div class="blog-post glass-card reveal">
+                        <img src="https://placehold.co/600x400/0a0a1a/e0e0e0?text=Blog+Image+1" alt="Blog Post 1"
+                            class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">Oct 28, 2025</span>
+                            <h3 class="blog-title">The Future of Interaction: Beyond the Click</h3>
+                            <a href="#" class="blog-link">Read More <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-post glass-card reveal" data-reveal-delay="0.1s">
+                        <img src="https://placehold.co/600x400/00bfff/0a0a1a?text=Blog+Image+2" alt="Blog Post 2"
+                            class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">Oct 22, 2025</span>
+                            <h3 class="blog-title">Glassmorphism in UI: The Good, The Bad, and The Trendy</h3>
+                            <a href="#" class="blog-link">Read More <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-post glass-card reveal" data-reveal-delay="0.2s">
+                        <img src="https://placehold.co/600x400/8a2be2/ffffff?text=Blog+Image+3" alt="Blog Post 3"
+                            class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">Oct 15, 2025</span>
+                            <h3 class="blog-title">Why Vanilla JavaScript is Still a Powerhouse in 2025</h3>
+                            <a href="#" class="blog-link">Read More <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <span class="section-subtitle">Get in Touch</span>
+                        <h2 class="section-title">Let's Build Something Stellar.</h2>
+                        <p>
+                            Have a project in mind or just want to say hello?
+                            We'd love to hear from you.
+                        </p>
+                        <ul class="contact-list">
+                            <li><i data-feather="mail"></i> hello@stellar.agency</li>
+                            <li><i data-feather="phone"></i> (555) 123-4567</li>
+                            <li><i data-feather="map-pin"></i> 123 Future Drive, Cyberspace</li>
+                        </ul>
+                    </div>
+                    <form class="contact-form glass-card reveal" data-reveal-delay="0.1s">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">Stellar<span class="logo-dot">.</span></a>
+                <p>Designing the future, today.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                    <a href="#" aria-label="Github"><i data-feather="github"></i></a>
+                    <a href="#" aria-label="Dribbble"><i data-feather="dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Stellar Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
